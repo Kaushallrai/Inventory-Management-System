@@ -16,7 +16,7 @@ const Header = () => {
       </div>
 
       {/* Icons */}
-      <div className="flex items-center space-x-6">
+      <div className="flex items-center space-x-6 mr-4">
         {/* Notifications icon */}
         <div className="text-gray-500 hover:text-gray-700 cursor-pointer">
           <IoMdNotificationsOutline size={24} />
@@ -24,7 +24,7 @@ const Header = () => {
 
         {/* Avatar icon */}
         <div className="text-gray-500 hover:text-gray-700 cursor-pointer">
-          <RxAvatar size={24} />
+          <RxAvatar size={28} />
         </div>
       </div>
     </div>
