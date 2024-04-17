@@ -1,9 +1,11 @@
-import Login from "./pages/Login/Login";
+import Dashboard from "./pages/Login/Dashboard";
+// import Login from "./pages/Login/Login";
 
 function App() {
   return (
     <div>
-      <Login />
+      <Dashboard />
+      {/* <Login /> */}
     </div>
   );
 }
